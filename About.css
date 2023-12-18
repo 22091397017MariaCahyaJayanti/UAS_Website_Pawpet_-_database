@@ -1,0 +1,138 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling body */
+body {
+    background-color: #f2f2f2; /* Warna latar belakang abu-abu muda */
+    font-family: Arial, sans-serif;
+    margin-bottom: 50px; /* Memberikan ruang untuk footer */
+}
+
+/* Styling navigation */
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(223, 184, 231);
+    z-index: 100; /* Untuk memastikan elemen navigasi di atas elemen lainnya */
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    line-height: 45px;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: #000; /* Warna teks saat dihover menjadi hitam */
+}
+
+/* Styling header */
+header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* Styling website description */
+#website-description {
+    max-width: 900px;
+    margin: 20px auto; /* Merapikan margin atas dan bawah */
+    padding: 20px;
+    background-color: #fff; /* Menambahkan latar belakang putih */
+    border-radius: 10px; /* Sudut elemen menjadi bulat */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Bayangan elemen */
+}
+
+#website-description h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+#website-description p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Styling about authors */
+#about-authors {
+    max-width: 900px;
+    margin: 20px auto; /* Merapikan margin atas dan bawah */
+    padding: 20px;
+    background-color: #fff; /* Menambahkan latar belakang putih */
+    border-radius: 10px; /* Sudut elemen menjadi bulat */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Bayangan elemen */
+}
+
+#about-authors h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+#about-authors ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+/* Styling website topics */
+#website-topics {
+    max-width: 900px;
+    margin: 20px auto; /* Merapikan margin atas dan bawah */
+    padding: 20px;
+    background-color: #fff; /* Menambahkan latar belakang putih */
+    border-radius: 10px; /* Sudut elemen menjadi bulat */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Bayangan elemen */
+}
+
+#website-topics h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+#website-topics ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(223, 184, 231);
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
